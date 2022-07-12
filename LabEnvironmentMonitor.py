@@ -75,6 +75,7 @@ GPIO.setup(in4, GPIO.OUT)
 def sendMessages(subject, body):
     if __name__ =='__main__':                 
         email_alert("6366759462@txt.att.net", subject, body) # https://www.digitaltrends.com/mobile/how-to-send-a-text-from-your-email-account/ for other cell companies
+        # email_alert("3148259049@txt.att.net", subject, body) 
         # email_alert("lcrothers037@rsdmo.org", subject, body) 
         # print("IT SHOULD BE SENDING A MESSAGE")
 
