@@ -1,0 +1,192 @@
+Program Start
+
+Checksum did not validate. Try again.
+
+Checksum did not validate. Try again.
+
+
+07/07/2022 10:16:02
+Temp:70.9F 21.6C
+Humidity: 73.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:16:05
+Temp:70.9F 21.6C
+Humidity: 73.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:16:07
+Temp:70.9F 21.6C
+Humidity: 73.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:16:10
+Temp:70.9F 21.6C
+Humidity: 73.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:16:12
+Temp:70.9F 21.6C
+Humidity: 73.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:16:14
+Temp:70.9F 21.6C
+Humidity: 73.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:16:17
+Temp:70.9F 21.6C
+Humidity: 73.3%
+Temperature Stabilized
+Humidity Stabilized
+
+Checksum did not validate. Try again.
+
+
+07/07/2022 10:16:21
+Temp:70.9F 21.6C
+Humidity: 73.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:16:24
+Temp:70.9F 21.6C
+Humidity: 73.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:16:26
+Temp:70.9F 21.6C
+Humidity: 73.4%
+Temperature Stabilized
+Humidity Stabilized
+
+Received unplausible data. Try again.
+
+
+07/07/2022 10:16:31
+Temp:70.9F 21.6C
+Humidity: 73.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:16:33
+Temp:70.9F 21.6C
+Humidity: 73.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:16:36
+Temp:70.9F 21.6C
+Humidity: 73.4%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+
+07/07/2022 10:16:40
+Temp:70.9F 21.6C
+Humidity: 73.4%
+Temperature Stabilized
+Humidity Stabilized
+
+Received unplausible data. Try again.
+
+A full buffer was not returned. Try again.
+
+
+07/07/2022 10:16:47
+Temp:70.9F 21.6C
+Humidity: 73.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:16:50
+Temp:70.9F 21.6C
+Humidity: 73.4%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+DHT sensor not found, check wiring
+
+
+07/07/2022 10:16:57
+Temp:70.9F 21.6C
+Humidity: 73.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:16:59
+Temp:70.9F 21.6C
+Humidity: 73.4%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+Checksum did not validate. Try again.
+
+Checksum did not validate. Try again.
+
+A full buffer was not returned. Try again.
+
+A full buffer was not returned. Try again.
+
+
+07/07/2022 10:17:13
+Temp:70.9F 21.6C
+Humidity: 73.3%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:17:15
+Temp:70.9F 21.6C
+Humidity: 73.3%
+Temperature Stabilized
+Humidity Stabilized
+
+Checksum did not validate. Try again.
+
+
+07/07/2022 10:17:20
+Temp:70.9F 21.6C
+Humidity: 73.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:17:22
+Temp:70.9F 21.6C
+Humidity: 73.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:17:25
+Temp:70.9F 21.6C
+Humidity: 73.4%
+Temperature Stabilized
+Humidity Stabilized

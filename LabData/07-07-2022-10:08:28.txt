@@ -1,0 +1,164 @@
+Program Start
+
+
+07/07/2022 10:08:31
+Temp:70.7F 21.5C
+Humidity: 73.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:08:34
+Temp:70.7F 21.5C
+Humidity: 73.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:08:36
+Temp:70.7F 21.5C
+Humidity: 73.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:08:41
+Temp:70.7F 21.5C
+Humidity: 73.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:08:43
+Temp:70.7F 21.5C
+Humidity: 73.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:08:48
+Temp:70.7F 21.5C
+Humidity: 73.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:08:50
+Temp:70.7F 21.5C
+Humidity: 73.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:08:52
+Temp:70.7F 21.5C
+Humidity: 73.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:08:55
+Temp:70.7F 21.5C
+Humidity: 73.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:09:02
+Temp:70.7F 21.5C
+Humidity: 73.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:09:04
+Temp:70.7F 21.5C
+Humidity: 73.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:09:07
+Temp:70.7F 21.5C
+Humidity: 73.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:09:11
+Temp:70.7F 21.5C
+Humidity: 73.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:09:14
+Temp:70.7F 21.5C
+Humidity: 73.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:09:16
+Temp:70.7F 21.5C
+Humidity: 73.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:09:18
+Temp:70.7F 21.5C
+Humidity: 73.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:09:21
+Temp:70.7F 21.5C
+Humidity: 73.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:09:32
+Temp:70.7F 21.5C
+Humidity: 73.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:09:35
+Temp:70.7F 21.5C
+Humidity: 73.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:09:37
+Temp:70.7F 21.5C
+Humidity: 73.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:09:40
+Temp:70.7F 21.5C
+Humidity: 73.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:09:42
+Temp:70.7F 21.5C
+Humidity: 73.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/07/2022 10:09:44
+Temp:70.7F 21.5C
+Humidity: 73.8%
+Temperature Stabilized
+Humidity Stabilized
+
+Program Terminated
