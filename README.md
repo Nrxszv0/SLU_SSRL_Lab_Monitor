@@ -15,3 +15,9 @@ Enter "python3 LabEnvironmentMonitor.py".
 You can press tab to autocomplete a filename.
 
 However, the program should start on startup.
+
+You can change the text message/email recipient in the sendMessages function in LabEnvironmentMonitor.py.
+
+This website will show how to send text message emails.
+https://www.digitaltrends.com/mobile/how-to-send-a-text-from-your-email-account/
+
