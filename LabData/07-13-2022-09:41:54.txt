@@ -1,0 +1,184 @@
+Message ErrorProgram Start
+
+
+07/13/2022 09:44:09
+Temp:72.0F 22.2C
+Humidity: 63.5%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:11
+Temp:73.6F 23.1C
+Humidity: 61.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:13
+Temp:73.6F 23.1C
+Humidity: 61.5%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:16
+Temp:73.6F 23.1C
+Humidity: 61.3%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:18
+Temp:73.8F 23.2C
+Humidity: 61.1%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:21
+Temp:73.8F 23.2C
+Humidity: 61.1%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:23
+Temp:73.8F 23.2C
+Humidity: 61.0%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:25
+Temp:73.8F 23.2C
+Humidity: 61.2%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:28
+Temp:73.8F 23.2C
+Humidity: 61.2%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:30
+Temp:73.8F 23.2C
+Humidity: 61.0%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:33
+Temp:73.8F 23.2C
+Humidity: 61.0%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:35
+Temp:73.8F 23.2C
+Humidity: 61.0%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:37
+Temp:73.8F 23.2C
+Humidity: 60.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:40
+Temp:73.8F 23.2C
+Humidity: 60.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:42
+Temp:73.8F 23.2C
+Humidity: 60.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:45
+Temp:73.8F 23.2C
+Humidity: 60.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:47
+Temp:73.8F 23.2C
+Humidity: 60.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:49
+Temp:73.8F 23.2C
+Humidity: 60.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:52
+Temp:73.8F 23.2C
+Humidity: 60.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:54
+Temp:73.8F 23.2C
+Humidity: 60.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:57
+Temp:73.8F 23.2C
+Humidity: 60.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:44:59
+Temp:73.8F 23.2C
+Humidity: 60.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:45:01
+Temp:73.8F 23.2C
+Humidity: 60.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:45:04
+Temp:73.8F 23.2C
+Humidity: 60.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 09:45:06
+Temp:73.8F 23.2C
+Humidity: 61.0%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+A full buffer was not returned. Try again.
+
+A full buffer was not returned. Try again.
+
+Program Terminated

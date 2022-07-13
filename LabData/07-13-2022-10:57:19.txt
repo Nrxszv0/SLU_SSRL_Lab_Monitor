@@ -1,0 +1,1006 @@
+Program Start
+
+
+07/13/2022 10:57:21
+Temp:73.9F 23.3C
+Humidity: 60.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:57:23
+Temp:74.1F 23.4C
+Humidity: 60.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:57:26
+Temp:74.1F 23.4C
+Humidity: 60.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:57:28
+Temp:74.1F 23.4C
+Humidity: 60.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:57:31
+Temp:74.1F 23.4C
+Humidity: 60.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:57:33
+Temp:74.1F 23.4C
+Humidity: 60.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:57:35
+Temp:74.1F 23.4C
+Humidity: 60.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:57:38
+Temp:74.1F 23.4C
+Humidity: 60.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:57:40
+Temp:74.1F 23.4C
+Humidity: 60.6%
+Temperature Stabilized
+Humidity Stabilized
+
+Checksum did not validate. Try again.
+
+A full buffer was not returned. Try again.
+
+
+07/13/2022 10:57:47
+Temp:74.1F 23.4C
+Humidity: 60.6%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+
+07/13/2022 10:57:52
+Temp:74.1F 23.4C
+Humidity: 60.6%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:57:54
+Temp:74.1F 23.4C
+Humidity: 60.6%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:57:56
+Temp:74.1F 23.4C
+Humidity: 60.6%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:57:59
+Temp:74.1F 23.4C
+Humidity: 60.6%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:58:01
+Temp:74.1F 23.4C
+Humidity: 60.5%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:58:04
+Temp:74.1F 23.4C
+Humidity: 60.5%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:58:06
+Temp:74.1F 23.4C
+Humidity: 60.5%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:58:08
+Temp:74.1F 23.4C
+Humidity: 60.5%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:58:11
+Temp:74.1F 23.4C
+Humidity: 60.5%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:58:13
+Temp:74.1F 23.4C
+Humidity: 60.5%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:58:16
+Temp:74.1F 23.4C
+Humidity: 60.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:58:18
+Temp:74.1F 23.4C
+Humidity: 60.5%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:58:20
+Temp:74.1F 23.4C
+Humidity: 60.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:58:23
+Temp:74.1F 23.4C
+Humidity: 60.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:58:25
+Temp:74.1F 23.4C
+Humidity: 60.5%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:58:28
+Temp:74.1F 23.4C
+Humidity: 60.5%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+
+07/13/2022 10:58:32
+Temp:74.1F 23.4C
+Humidity: 60.5%
+Temperature Stabilized
+Humidity Stabilized
+
+Checksum did not validate. Try again.
+
+
+07/13/2022 10:58:37
+Temp:74.1F 23.4C
+Humidity: 60.6%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:58:39
+Temp:74.1F 23.4C
+Humidity: 60.6%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+
+07/13/2022 10:58:44
+Temp:74.1F 23.4C
+Humidity: 60.6%
+Temperature Stabilized
+Humidity Stabilized
+
+Checksum did not validate. Try again.
+
+
+07/13/2022 10:58:49
+Temp:74.1F 23.4C
+Humidity: 60.6%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:58:51
+Temp:74.1F 23.4C
+Humidity: 60.6%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:58:53
+Temp:74.1F 23.4C
+Humidity: 60.6%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:58:56
+Temp:74.1F 23.4C
+Humidity: 60.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:58:58
+Temp:74.1F 23.4C
+Humidity: 60.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:59:01
+Temp:74.1F 23.4C
+Humidity: 60.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:59:03
+Temp:74.1F 23.4C
+Humidity: 60.7%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+
+07/13/2022 10:59:08
+Temp:74.1F 23.4C
+Humidity: 60.7%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+
+07/13/2022 10:59:12
+Temp:74.1F 23.4C
+Humidity: 60.8%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+
+07/13/2022 10:59:17
+Temp:74.1F 23.4C
+Humidity: 60.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:59:19
+Temp:74.1F 23.4C
+Humidity: 60.7%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+
+07/13/2022 10:59:24
+Temp:74.1F 23.4C
+Humidity: 60.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:59:26
+Temp:74.1F 23.4C
+Humidity: 60.6%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+
+07/13/2022 10:59:31
+Temp:74.1F 23.4C
+Humidity: 60.5%
+Temperature Stabilized
+Humidity Stabilized
+
+Checksum did not validate. Try again.
+
+
+07/13/2022 10:59:36
+Temp:74.1F 23.4C
+Humidity: 60.5%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+Checksum did not validate. Try again.
+
+
+07/13/2022 10:59:43
+Temp:74.1F 23.4C
+Humidity: 60.5%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:59:45
+Temp:74.1F 23.4C
+Humidity: 60.5%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+Checksum did not validate. Try again.
+
+A full buffer was not returned. Try again.
+
+
+07/13/2022 10:59:54
+Temp:74.1F 23.4C
+Humidity: 60.5%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:59:57
+Temp:74.3F 23.5C
+Humidity: 60.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 10:59:59
+Temp:74.1F 23.4C
+Humidity: 60.6%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:00:01
+Temp:74.3F 23.5C
+Humidity: 60.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:00:04
+Temp:74.3F 23.5C
+Humidity: 60.6%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:00:06
+Temp:74.3F 23.5C
+Humidity: 60.5%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:00:09
+Temp:74.3F 23.5C
+Humidity: 60.5%
+Temperature Stabilized
+Humidity Stabilized
+
+Checksum did not validate. Try again.
+
+
+07/13/2022 11:00:13
+Temp:74.3F 23.5C
+Humidity: 60.6%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:00:16
+Temp:74.3F 23.5C
+Humidity: 60.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:00:18
+Temp:74.3F 23.5C
+Humidity: 60.7%
+Temperature Stabilized
+Humidity Stabilized
+
+Checksum did not validate. Try again.
+
+Checksum did not validate. Try again.
+
+
+07/13/2022 11:00:25
+Temp:74.3F 23.5C
+Humidity: 60.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:00:27
+Temp:74.3F 23.5C
+Humidity: 60.6%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+
+07/13/2022 11:00:32
+Temp:74.3F 23.5C
+Humidity: 60.4%
+Temperature Stabilized
+Humidity Stabilized
+
+Checksum did not validate. Try again.
+
+DHT sensor not found, check wiring
+
+
+07/13/2022 11:00:39
+Temp:74.3F 23.5C
+Humidity: 60.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:00:41
+Temp:74.3F 23.5C
+Humidity: 60.3%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:00:44
+Temp:74.3F 23.5C
+Humidity: 60.3%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:00:46
+Temp:74.3F 23.5C
+Humidity: 60.4%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+
+07/13/2022 11:00:51
+Temp:74.3F 23.5C
+Humidity: 60.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:00:53
+Temp:74.3F 23.5C
+Humidity: 60.3%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:00:56
+Temp:74.3F 23.5C
+Humidity: 60.3%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:00:58
+Temp:74.3F 23.5C
+Humidity: 60.3%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+
+07/13/2022 11:01:03
+Temp:74.3F 23.5C
+Humidity: 60.2%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:01:05
+Temp:74.3F 23.5C
+Humidity: 60.2%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+
+07/13/2022 11:01:10
+Temp:74.3F 23.5C
+Humidity: 60.3%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:01:12
+Temp:74.5F 23.6C
+Humidity: 60.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:01:15
+Temp:74.5F 23.6C
+Humidity: 60.6%
+Temperature Stabilized
+Humidity Stabilized
+
+Checksum did not validate. Try again.
+
+
+07/13/2022 11:01:19
+Temp:74.5F 23.6C
+Humidity: 60.7%
+Temperature Stabilized
+Humidity Stabilized
+
+Checksum did not validate. Try again.
+
+
+07/13/2022 11:01:24
+Temp:74.5F 23.6C
+Humidity: 60.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:01:26
+Temp:74.5F 23.6C
+Humidity: 60.3%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+Checksum did not validate. Try again.
+
+
+07/13/2022 11:01:33
+Temp:74.5F 23.6C
+Humidity: 60.1%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:01:36
+Temp:74.5F 23.6C
+Humidity: 60.1%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+Checksum did not validate. Try again.
+
+
+07/13/2022 11:01:42
+Temp:74.5F 23.6C
+Humidity: 60.1%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:01:45
+Temp:74.5F 23.6C
+Humidity: 60.1%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+
+07/13/2022 11:01:50
+Temp:74.5F 23.6C
+Humidity: 60.0%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:01:52
+Temp:74.5F 23.6C
+Humidity: 60.0%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:01:54
+Temp:74.5F 23.6C
+Humidity: 60.1%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:01:57
+Temp:74.5F 23.6C
+Humidity: 60.1%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:01:59
+Temp:74.5F 23.6C
+Humidity: 60.1%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:02
+Temp:74.5F 23.6C
+Humidity: 60.3%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:04
+Temp:74.5F 23.6C
+Humidity: 60.2%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:06
+Temp:74.5F 23.6C
+Humidity: 60.1%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:09
+Temp:74.5F 23.6C
+Humidity: 60.1%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:11
+Temp:74.5F 23.6C
+Humidity: 60.0%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:14
+Temp:74.5F 23.6C
+Humidity: 60.0%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:16
+Temp:74.5F 23.6C
+Humidity: 60.0%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:18
+Temp:74.5F 23.6C
+Humidity: 60.0%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:21
+Temp:74.5F 23.6C
+Humidity: 60.0%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:23
+Temp:74.5F 23.6C
+Humidity: 60.0%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:25
+Temp:74.5F 23.6C
+Humidity: 60.0%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:28
+Temp:74.5F 23.6C
+Humidity: 60.0%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:30
+Temp:74.5F 23.6C
+Humidity: 60.0%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:33
+Temp:74.5F 23.6C
+Humidity: 59.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:35
+Temp:74.5F 23.6C
+Humidity: 59.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:37
+Temp:74.5F 23.6C
+Humidity: 59.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:40
+Temp:74.5F 23.6C
+Humidity: 59.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:42
+Temp:74.5F 23.6C
+Humidity: 59.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:45
+Temp:74.5F 23.6C
+Humidity: 59.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:47
+Temp:74.5F 23.6C
+Humidity: 59.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:49
+Temp:74.5F 23.6C
+Humidity: 59.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:52
+Temp:74.5F 23.6C
+Humidity: 59.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:54
+Temp:74.5F 23.6C
+Humidity: 59.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:57
+Temp:74.5F 23.6C
+Humidity: 59.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:02:59
+Temp:74.5F 23.6C
+Humidity: 59.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:01
+Temp:74.5F 23.6C
+Humidity: 59.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:04
+Temp:74.5F 23.6C
+Humidity: 59.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:06
+Temp:74.5F 23.6C
+Humidity: 59.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:09
+Temp:74.5F 23.6C
+Humidity: 59.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:11
+Temp:74.5F 23.6C
+Humidity: 59.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:13
+Temp:74.5F 23.6C
+Humidity: 59.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:16
+Temp:74.5F 23.6C
+Humidity: 59.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:18
+Temp:74.5F 23.6C
+Humidity: 59.7%
+Temperature Stabilized
+Humidity Stabilized
+
+Checksum did not validate. Try again.
+
+
+07/13/2022 11:03:23
+Temp:74.5F 23.6C
+Humidity: 59.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:25
+Temp:74.5F 23.6C
+Humidity: 59.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:27
+Temp:74.5F 23.6C
+Humidity: 59.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:30
+Temp:74.5F 23.6C
+Humidity: 60.1%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:32
+Temp:74.5F 23.6C
+Humidity: 59.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:35
+Temp:74.5F 23.6C
+Humidity: 59.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:37
+Temp:74.5F 23.6C
+Humidity: 59.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:39
+Temp:74.5F 23.6C
+Humidity: 59.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:42
+Temp:74.5F 23.6C
+Humidity: 59.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:44
+Temp:74.5F 23.6C
+Humidity: 60.0%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:47
+Temp:74.5F 23.6C
+Humidity: 60.0%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:49
+Temp:74.5F 23.6C
+Humidity: 59.9%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:51
+Temp:74.5F 23.6C
+Humidity: 59.9%
+Temperature Stabilized
+Humidity Stabilized
+
+Checksum did not validate. Try again.
+
+
+07/13/2022 11:03:56
+Temp:74.5F 23.6C
+Humidity: 59.8%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/13/2022 11:03:58
+Temp:74.5F 23.6C
+Humidity: 59.8%
+Temperature Stabilized
+Humidity Stabilized
+
+Program Terminated

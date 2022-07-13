@@ -49,23 +49,23 @@ prevHumiState = humiState
 messageSentFlagTemp = False
 messageSentFlagHumi = False
 
-# tempLEDPin = 20
-# humiLEDPin = 21
-# errMessageLEDPin = 16
-# pasMessageLEDPin = 12
+tempLEDPin = 20
+humiLEDPin = 21
+errMessageLEDPin = 16
+pasMessageLEDPin = 12
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
-# GPIO.setup(tempLEDPin,GPIO.OUT)
-# GPIO.setup(humiLEDPin,GPIO.OUT)
-# GPIO.setup(errMessageLEDPin,GPIO.OUT)
-# GPIO.setup(pasMessageLEDPin,GPIO.OUT)
+GPIO.setup(tempLEDPin,GPIO.OUT)
+GPIO.setup(humiLEDPin,GPIO.OUT)
+GPIO.setup(errMessageLEDPin,GPIO.OUT)
+GPIO.setup(pasMessageLEDPin,GPIO.OUT)
 
 
-# GPIO.output(tempLEDPin,GPIO.LOW)
-# GPIO.output(humiLEDPin,GPIO.LOW)
-# GPIO.output(errMessageLEDPin,GPIO.LOW)
-# GPIO.output(pasMessageLEDPin,GPIO.LOW)
+GPIO.output(tempLEDPin,GPIO.LOW)
+GPIO.output(humiLEDPin,GPIO.LOW)
+GPIO.output(errMessageLEDPin,GPIO.LOW)
+GPIO.output(pasMessageLEDPin,GPIO.LOW)
 
 GPIO.setup(in1, GPIO.OUT)
 GPIO.setup(in2, GPIO.OUT)
@@ -73,9 +73,9 @@ GPIO.setup(in3, GPIO.OUT)
 GPIO.setup(in4, GPIO.OUT)
 
 def sendMessages(subject, body):
-    if __name__ =='__main__':                 
+   if __name__ =='__main__':                 
         email_alert("6366759462@txt.att.net", subject, body) # https://www.digitaltrends.com/mobile/how-to-send-a-text-from-your-email-account/ for other cell companies
-        #email_alert("3148259049@txt.att.net", subject, body) 
+        # email_alert("3148259049@txt.att.net", subject, body) 
         # email_alert("lcrothers037@rsdmo.org", subject, body) 
         # print("IT SHOULD BE SENDING A MESSAGE")
 
@@ -98,15 +98,21 @@ f.write("Program Start")
 
 
 while True:
-    try:    
+    try:
+    # Print the values to the serial port
+
       #for testing conditions
-        # temperature_c = float(input("Enter Celcius: "))
-        # temperature_f = temperature_c * (9 / 5) + 32
-        # humidity = float(input("Enter Humidity: "))
+    # temperature_c = float(input("Enter Celcius: "))
+    # temperature_f = temperature_c * (9 / 5) + 32
+    # humidity = float(input("Enter Humidity: "))
 
         temperature_c = dhtDevice.temperature
         temperature_f = temperature_c * (9 / 5) + 32
         humidity = dhtDevice.humidity  
+
+        # temperature_c2 = dhtDevice2.temperature
+        # temperature_f2 = temperature_c2 * (9 / 5) + 32
+        # humidity2 = dhtDevice2.humidity   
 
         now = datetime.now()
         strDate = now.strftime("%m/%d/%Y %H:%M:%S")
@@ -117,6 +123,11 @@ while True:
                 temperature_f, temperature_c, humidity
             )
         )
+        # print(
+        #     "Temp2: {:.1f} F / {:.1f} C    Humidity2: {}% ".format(
+        #         temperature_f2, temperature_c2, humidity2
+        #     )
+        # )
 
         mylcd.lcd_clear()
         strTemp = "Temp:{:.1f}F {:.1f}C".format(temperature_f,temperature_c)
@@ -127,12 +138,13 @@ while True:
         f.write("\n\n\n" + strDate)
         f.write("\n" + strTemp)
         f.write("\n" + strHumi)
-        
+        #add while loop to check if values are real and data was read
         if temperature_c > tempCMax:
-            #if temp greater than max
+            #if temperature greater than max turn on tempLED
             tempState = 1
+            GPIO.output(tempLEDPin,GPIO.HIGH)
             #Turn on AC relay
-            #Turn off Heater relay            
+            #Turn off Heater relay
             strWarn = "Warning {} Time: {}".format(strTemp,strDate)
             print("Warning High Temperature")
             # print(strWarn)
@@ -145,13 +157,22 @@ while True:
                     print("High Temp Message Sent")
                     f.write("\n" + "High Temp Message Sent")
                     prevTempState = tempState
+                    GPIO.output(pasMessageLEDPin,GPIO.HIGH)
+                    time.sleep(0.5)
+                    GPIO.output(pasMessageLEDPin,GPIO.LOW)
+
                 except:    
                     print("Message Error")
                     f.write("\n" + "Message Error")
+                    GPIO.output(errMessageLEDPin,GPIO.HIGH)
+                    time.sleep(0.5)
+                    GPIO.output(errMessageLEDPin,GPIO.LOW)
+
 
         if temperature_c < tempCMin:
-            #if temp less than min 
+            #if temp less than min turn on tempLED
             tempState = -1
+            GPIO.output(tempLEDPin,GPIO.HIGH)
             #Turn on Heater relay
             #Turn off AC Relay
             strWarn = "Warning {} Time: {}".format(strTemp,strDate)
@@ -165,15 +186,22 @@ while True:
                     sendMessages("Warning Low Temperature", strWarn)                       
                     print("Low Temp Message Sent")
                     f.write("\n" + "Low Temp Message Sent")
-                    prevTempState = tempState                       
+                    prevTempState = tempState 
+                    GPIO.output(pasMessageLEDPin,GPIO.HIGH)
+                    time.sleep(0.5)
+                    GPIO.output(pasMessageLEDPin,GPIO.LOW)                            
                 except:
                     print("Message Error")
                     f.write("\n" + "Message Error")
+                    GPIO.output(errMessageLEDPin,GPIO.HIGH)
+                    time.sleep(0.5)
+                    GPIO.output(errMessageLEDPin,GPIO.LOW)
 
 
         if humidity > humiMax:
-            #if humidity greater than max 
+            #if humidity greater than max turn on humiLED
             humiState = 1
+            GPIO.output(humiLEDPin,GPIO.HIGH)
             #Turn on Dehumidifier relay
             #Turn off Humidifier relay
             strWarn = "Warning {} Time: {}".format(strHumi,strDate)
@@ -188,15 +216,21 @@ while True:
                     print("High Humidity Message Sent")
                     f.write("\n" + "High Humidity Message Sent")                    
                     prevHumiState = humiState
+                    GPIO.output(pasMessageLEDPin,GPIO.HIGH)
+                    time.sleep(0.5)
+                    GPIO.output(pasMessageLEDPin,GPIO.LOW)    
                 except:
                     print("Message Error")
                     f.write("\n" + "Message Error")
-
+                    GPIO.output(errMessageLEDPin,GPIO.HIGH)
+                    time.sleep(0.5)
+                    GPIO.output(errMessageLEDPin,GPIO.LOW)
         if humidity < humiMin:
-            #if humidity less than min 
+            #if humidity less than min turn on humiLED
             humiState = -1
             #Turn on Humidifier relay
             #Turn off Dehumidifier relay
+            GPIO.output(humiLEDPin,GPIO.HIGH)
             strWarn = "Warning {} Time: {}".format(strHumi,strDate)
             print("Warning Low Humidity")
             # print(strWarn)
@@ -208,17 +242,22 @@ while True:
                     print("Low Humidity Message Sent")
                     f.write("\n" + "Low Humidity Message Sent")                                        
                     prevHumiState = humiState
+                    GPIO.output(pasMessageLEDPin,GPIO.HIGH)
+                    time.sleep(0.5)
+                    GPIO.output(pasMessageLEDPin,GPIO.LOW) 
                 except:
                     print("Message Error")
                     f.write("\n" + "Message Error")
+                    GPIO.output(errMessageLEDPin,GPIO.HIGH)
+                    time.sleep(0.5)
+                    GPIO.output(errMessageLEDPin,GPIO.LOW)
                     
         if temperature_c <= tempCMax and temperature_c >= tempCMin:
-            #if temp stabilizes 
+            #if temp stabilizes send a text and turn off tempLED
             tempState = 0
+            GPIO.output(tempLEDPin,GPIO.LOW)
             #Turn off AC
             #Turn off Heating
-            #GPIO.output(in1, GPIO.LOW)
-            #GPIO.output(in2, GPIO.LOW)
             strTempStab = "Temperature Stabilized {} Time: {}".format(strTemp,strDate)
             print("Temperature Stabilized")
             # print(strTempStab)
@@ -230,17 +269,22 @@ while True:
                     print("Temp Stablized Message Sent")
                     f.write("\n" + "Temp Stabilized Message Sent")
                     prevTempState = tempState
+                    GPIO.output(pasMessageLEDPin,GPIO.HIGH)
+                    time.sleep(0.5)
+                    GPIO.output(pasMessageLEDPin,GPIO.LOW) 
                 except:
                     print("Message Error")
                     f.write("\n" + "Message Error")
-                         
+                    GPIO.output(errMessageLEDPin,GPIO.HIGH)
+                    time.sleep(0.5)
+                    GPIO.output(errMessageLEDPin,GPIO.LOW)                       
+                           
         if humidity <= humiMax and humidity >= humiMin:
-            #if humidity stabilizes 
+            #if humidity stabilizes send a text and turn off humiLED
             humiState = 0
+            GPIO.output(humiLEDPin,GPIO.LOW)
             #Turn off Humidifier
             #Turn off Dehumidifier
-            #GPIO.output(in3, GPIO.LOW)
-            #GPIO.output(in4, GPIO.LOW)
             strHumiStab = "Humidity Stabilized {} Time: {}".format(strHumi,strDate)
             print("Humidity Stabilized")
             # print(strHumiStab)
@@ -252,11 +296,21 @@ while True:
                     print("Humidity Stabilized Message Sent")  
                     f.write("\n" + "Humidity Stabilized Message Sent")
                     prevHumiState = humiState
+                    GPIO.output(pasMessageLEDPin,GPIO.HIGH)
+                    time.sleep(0.5)
+                    GPIO.output(pasMessageLEDPin,GPIO.LOW) 
                 except:
                     print("Message Error")
                     f.write("\n" + "Message Error")
+                    GPIO.output(errMessageLEDPin,GPIO.HIGH)
+                    time.sleep(0.5)
+                    GPIO.output(errMessageLEDPin,GPIO.LOW) 
+
     
+
         time.sleep(2.0)
+         
+            
 
     except RuntimeError as error:
         # Errors happen fairly often, DHT's are hard to read, just keep going
