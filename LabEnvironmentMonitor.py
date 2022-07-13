@@ -75,7 +75,7 @@ GPIO.setup(in4, GPIO.OUT)
 def sendMessages(subject, body):
     if __name__ =='__main__':                 
         email_alert("6366759462@txt.att.net", subject, body) # https://www.digitaltrends.com/mobile/how-to-send-a-text-from-your-email-account/ for other cell companies
-        # email_alert("3148259049@txt.att.net", subject, body) 
+        email_alert("3148259049@txt.att.net", subject, body) 
         # email_alert("lcrothers037@rsdmo.org", subject, body) 
         # print("IT SHOULD BE SENDING A MESSAGE")
 
@@ -110,10 +110,6 @@ while True:
         temperature_f = temperature_c * (9 / 5) + 32
         humidity = dhtDevice.humidity  
 
-        # temperature_c2 = dhtDevice2.temperature
-        # temperature_f2 = temperature_c2 * (9 / 5) + 32
-        # humidity2 = dhtDevice2.humidity   
-
         now = datetime.now()
         strDate = now.strftime("%m/%d/%Y %H:%M:%S")
         print("\n\n\n" + strDate)
@@ -123,11 +119,6 @@ while True:
                 temperature_f, temperature_c, humidity
             )
         )
-        # print(
-        #     "Temp2: {:.1f} F / {:.1f} C    Humidity2: {}% ".format(
-        #         temperature_f2, temperature_c2, humidity2
-        #     )
-        # )
 
         mylcd.lcd_clear()
         strTemp = "Temp:{:.1f}F {:.1f}C".format(temperature_f,temperature_c)
@@ -157,17 +148,9 @@ while True:
                     print("High Temp Message Sent")
                     f.write("\n" + "High Temp Message Sent")
                     prevTempState = tempState
-                    GPIO.output(pasMessageLEDPin,GPIO.HIGH)
-                    time.sleep(0.5)
-                    GPIO.output(pasMessageLEDPin,GPIO.LOW)
-
                 except:    
                     print("Message Error")
                     f.write("\n" + "Message Error")
-                    GPIO.output(errMessageLEDPin,GPIO.HIGH)
-                    time.sleep(0.5)
-                    GPIO.output(errMessageLEDPin,GPIO.LOW)
-
 
         if temperature_c < tempCMin:
             #if temp less than min turn on tempLED
@@ -186,16 +169,10 @@ while True:
                     sendMessages("Warning Low Temperature", strWarn)                       
                     print("Low Temp Message Sent")
                     f.write("\n" + "Low Temp Message Sent")
-                    prevTempState = tempState 
-                    GPIO.output(pasMessageLEDPin,GPIO.HIGH)
-                    time.sleep(0.5)
-                    GPIO.output(pasMessageLEDPin,GPIO.LOW)                            
+                    prevTempState = tempState                       
                 except:
                     print("Message Error")
                     f.write("\n" + "Message Error")
-                    GPIO.output(errMessageLEDPin,GPIO.HIGH)
-                    time.sleep(0.5)
-                    GPIO.output(errMessageLEDPin,GPIO.LOW)
 
 
         if humidity > humiMax:
@@ -216,15 +193,10 @@ while True:
                     print("High Humidity Message Sent")
                     f.write("\n" + "High Humidity Message Sent")                    
                     prevHumiState = humiState
-                    GPIO.output(pasMessageLEDPin,GPIO.HIGH)
-                    time.sleep(0.5)
-                    GPIO.output(pasMessageLEDPin,GPIO.LOW)    
                 except:
                     print("Message Error")
                     f.write("\n" + "Message Error")
-                    GPIO.output(errMessageLEDPin,GPIO.HIGH)
-                    time.sleep(0.5)
-                    GPIO.output(errMessageLEDPin,GPIO.LOW)
+
         if humidity < humiMin:
             #if humidity less than min turn on humiLED
             humiState = -1
@@ -242,15 +214,9 @@ while True:
                     print("Low Humidity Message Sent")
                     f.write("\n" + "Low Humidity Message Sent")                                        
                     prevHumiState = humiState
-                    GPIO.output(pasMessageLEDPin,GPIO.HIGH)
-                    time.sleep(0.5)
-                    GPIO.output(pasMessageLEDPin,GPIO.LOW) 
                 except:
                     print("Message Error")
                     f.write("\n" + "Message Error")
-                    GPIO.output(errMessageLEDPin,GPIO.HIGH)
-                    time.sleep(0.5)
-                    GPIO.output(errMessageLEDPin,GPIO.LOW)
                     
         if temperature_c <= tempCMax and temperature_c >= tempCMin:
             #if temp stabilizes send a text and turn off tempLED
@@ -269,16 +235,10 @@ while True:
                     print("Temp Stablized Message Sent")
                     f.write("\n" + "Temp Stabilized Message Sent")
                     prevTempState = tempState
-                    GPIO.output(pasMessageLEDPin,GPIO.HIGH)
-                    time.sleep(0.5)
-                    GPIO.output(pasMessageLEDPin,GPIO.LOW) 
                 except:
                     print("Message Error")
                     f.write("\n" + "Message Error")
-                    GPIO.output(errMessageLEDPin,GPIO.HIGH)
-                    time.sleep(0.5)
-                    GPIO.output(errMessageLEDPin,GPIO.LOW)                       
-                           
+                         
         if humidity <= humiMax and humidity >= humiMin:
             #if humidity stabilizes send a text and turn off humiLED
             humiState = 0
@@ -296,21 +256,11 @@ while True:
                     print("Humidity Stabilized Message Sent")  
                     f.write("\n" + "Humidity Stabilized Message Sent")
                     prevHumiState = humiState
-                    GPIO.output(pasMessageLEDPin,GPIO.HIGH)
-                    time.sleep(0.5)
-                    GPIO.output(pasMessageLEDPin,GPIO.LOW) 
                 except:
                     print("Message Error")
                     f.write("\n" + "Message Error")
-                    GPIO.output(errMessageLEDPin,GPIO.HIGH)
-                    time.sleep(0.5)
-                    GPIO.output(errMessageLEDPin,GPIO.LOW) 
-
     
-
         time.sleep(2.0)
-         
-            
 
     except RuntimeError as error:
         # Errors happen fairly often, DHT's are hard to read, just keep going
