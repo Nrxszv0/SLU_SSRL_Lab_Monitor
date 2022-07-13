@@ -22,4 +22,5 @@ This website will show how to send text message emails.
 https://www.digitaltrends.com/mobile/how-to-send-a-text-from-your-email-account/
 
 <img width="460" alt="SetupLabMonitor" src="https://user-images.githubusercontent.com/58677365/178592039-ef6bb5be-3b50-461f-a991-085efd3bb47a.PNG">
-![image](https://user-images.githubusercontent.com/58677365/178784576-bbf9eca0-5506-46f5-9280-51e3b41bfac2.png)
+
+<img width="532" alt="Pinout" src="https://user-images.githubusercontent.com/58677365/178784648-888082ad-56e1-4326-bcf7-c659bf10fa5b.PNG">
