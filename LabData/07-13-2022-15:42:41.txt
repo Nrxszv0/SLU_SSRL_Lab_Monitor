@@ -1,0 +1,97 @@
+Program Start
+
+
+07/13/2022 15:42:52
+Temp:194.0F 90.0C
+Humidity: 90.0%
+Warning High Temperature
+High Temp Message Sent
+Warning High Humidity
+High Humidity Message Sent
+
+
+07/13/2022 15:43:06
+Temp:194.0F 90.0C
+Humidity: 60.0%
+Warning High Temperature
+Humidity Stabilized
+Humidity Stabilized Message Sent
+
+
+07/13/2022 15:43:15
+Temp:194.0F 90.0C
+Humidity: 0.0%
+Warning High Temperature
+Warning High Humidity
+Low Humidity Message Sent
+
+
+07/13/2022 15:43:22
+Temp:32.0F 0.0C
+Humidity: 0.0%
+Warning Low Temperature
+Low Temp Message Sent
+Warning High Humidity
+
+
+07/13/2022 15:43:33
+Temp:212.0F 100.0C
+Humidity: 100.0%
+Warning High Temperature
+High Temp Message Sent
+Warning High Humidity
+High Humidity Message Sent
+
+
+07/13/2022 15:43:41
+Temp:140.0F 60.0C
+Humidity: 60.0%
+Warning High Temperature
+Humidity Stabilized
+Humidity Stabilized Message Sent
+
+
+07/13/2022 15:43:50
+Temp:68.0F 20.0C
+Humidity: 20.0%
+Temperature Stabilized
+Temp Stabilized Message Sent
+Humidity Stabilized
+
+
+07/13/2022 15:44:35
+Temp:1652.0F 900.0C
+Humidity: 900.0%
+Warning High Temperature
+High Temp Message Sent
+Warning High Humidity
+High Humidity Message Sent
+
+
+07/13/2022 15:44:43
+Temp:68.0F 20.0C
+Humidity: 20.0%
+Temperature Stabilized
+Temp Stabilized Message Sent
+Humidity Stabilized
+Humidity Stabilized Message Sent
+
+
+07/13/2022 15:44:54
+Temp:-130.0F -90.0C
+Humidity: 0.0%
+Warning Low Temperature
+Low Temp Message Sent
+Warning High Humidity
+Low Humidity Message Sent
+
+
+07/13/2022 15:45:01
+Temp:68.0F 20.0C
+Humidity: 20.0%
+Temperature Stabilized
+Temp Stabilized Message Sent
+Humidity Stabilized
+Humidity Stabilized Message Sent
+
+Program Terminated

@@ -132,7 +132,9 @@ while True:
             #if temp greater than max
             tempState = 1
             #Turn on AC relay
-            #Turn off Heater relay            
+            #Turn off Heater relay
+            GPIO.output(in1, GPIO.HIGH)
+            GPIO.output(in2, GPIO.LOW)            
             strWarn = "Warning {} Time: {}".format(strTemp,strDate)
             print("Warning High Temperature")
             # print(strWarn)
@@ -154,6 +156,8 @@ while True:
             tempState = -1
             #Turn on Heater relay
             #Turn off AC Relay
+            GPIO.output(in2, GPIO.HIGH)
+            GPIO.output(in1, GPIO.LOW)   
             strWarn = "Warning {} Time: {}".format(strTemp,strDate)
             print("Warning Low Temperature")
             # print(strWarn)
@@ -175,7 +179,9 @@ while True:
             #if humidity greater than max 
             humiState = 1
             #Turn on Dehumidifier relay
-            #Turn off Humidifier relay
+            #Turn off Humidifier relay    
+            GPIO.output(in3, GPIO.HIGH)
+            GPIO.output(in4, GPIO.LOW)     
             strWarn = "Warning {} Time: {}".format(strHumi,strDate)
             print("Warning High Humidity")
             # print(strWarn)
@@ -197,6 +203,8 @@ while True:
             humiState = -1
             #Turn on Humidifier relay
             #Turn off Dehumidifier relay
+            GPIO.output(in4, GPIO.HIGH)
+            GPIO.output(in3, GPIO.LOW)   
             strWarn = "Warning {} Time: {}".format(strHumi,strDate)
             print("Warning Low Humidity")
             # print(strWarn)
@@ -217,6 +225,8 @@ while True:
             tempState = 0
             #Turn off AC
             #Turn off Heating
+            GPIO.output(in1, GPIO.LOW)
+            GPIO.output(in2, GPIO.LOW)   
             #GPIO.output(in1, GPIO.LOW)
             #GPIO.output(in2, GPIO.LOW)
             strTempStab = "Temperature Stabilized {} Time: {}".format(strTemp,strDate)
@@ -239,8 +249,8 @@ while True:
             humiState = 0
             #Turn off Humidifier
             #Turn off Dehumidifier
-            #GPIO.output(in3, GPIO.LOW)
-            #GPIO.output(in4, GPIO.LOW)
+            GPIO.output(in3, GPIO.LOW)
+            GPIO.output(in4, GPIO.LOW)
             strHumiStab = "Humidity Stabilized {} Time: {}".format(strHumi,strDate)
             print("Humidity Stabilized")
             # print(strHumiStab)
