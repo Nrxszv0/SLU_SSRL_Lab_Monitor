@@ -1,0 +1,32 @@
+Program Start
+
+A full buffer was not returned. Try again.
+
+Checksum did not validate. Try again.
+
+
+07/27/2022 12:49:54
+Temp:77.7F 25.4C
+Humidity: 63.9%
+Temperature Stabilized
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+
+07/27/2022 12:49:59
+Temp:77.9F 25.5C
+Humidity: 63.9%
+Temperature Stabilized
+Humidity Stabilized
+
+Checksum did not validate. Try again.
+
+
+07/27/2022 12:50:03
+Temp:77.9F 25.5C
+Humidity: 63.9%
+Temperature Stabilized
+Humidity Stabilized
+
+Program Terminated

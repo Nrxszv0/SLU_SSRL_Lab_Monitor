@@ -1,0 +1,10 @@
+Program Start
+
+
+07/20/2022 10:42:35
+Temp:80.6F 27.0C
+Humidity: 61.5%
+Temperature Stabilized
+Humidity Stabilized
+
+Program Terminated

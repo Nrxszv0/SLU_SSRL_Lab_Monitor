@@ -1,0 +1,48 @@
+Program Start
+
+
+07/26/2022 13:59:21
+Temp:82.9F 28.3C
+Humidity: 63.0%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/26/2022 13:59:23
+Temp:85.5F 29.7C
+Humidity: 59.2%
+Warning High Temperature
+High Temp Message Sent
+Humidity Stabilized
+
+A full buffer was not returned. Try again.
+
+
+07/26/2022 13:59:28
+Temp:85.5F 29.7C
+Humidity: 59.4%
+Warning High Temperature
+Humidity Stabilized
+
+
+07/26/2022 13:59:30
+Temp:85.5F 29.7C
+Humidity: 59.2%
+Warning High Temperature
+Humidity Stabilized
+
+
+07/26/2022 13:59:33
+Temp:85.5F 29.7C
+Humidity: 59.1%
+Warning High Temperature
+Humidity Stabilized
+
+
+07/26/2022 13:59:35
+Temp:85.5F 29.7C
+Humidity: 59.0%
+Warning High Temperature
+Humidity Stabilized
+
+Program Terminated

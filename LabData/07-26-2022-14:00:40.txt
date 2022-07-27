@@ -1,0 +1,25 @@
+Program Start
+
+
+07/26/2022 14:00:40
+Temp:85.5F 29.7C
+Humidity: 59.0%
+Warning High Temperature
+High Temp Message Sent
+Humidity Stabilized
+
+
+07/26/2022 14:00:43
+Temp:86.4F 30.2C
+Humidity: 57.8%
+Warning High Temperature
+Humidity Stabilized
+
+
+07/26/2022 14:00:45
+Temp:86.5F 30.3C
+Humidity: 57.8%
+Warning High Temperature
+Humidity Stabilized
+
+Program Terminated

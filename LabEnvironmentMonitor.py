@@ -10,7 +10,6 @@ from datetime import datetime
 import board
 import adafruit_dht
 import RPi.GPIO as GPIO
-import math
 
 import I2C_LCD_driver
 
@@ -49,23 +48,9 @@ prevHumiState = humiState
 messageSentFlagTemp = False
 messageSentFlagHumi = False
 
-# tempLEDPin = 20
-# humiLEDPin = 21
-# errMessageLEDPin = 16
-# pasMessageLEDPin = 12
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
-# GPIO.setup(tempLEDPin,GPIO.OUT)
-# GPIO.setup(humiLEDPin,GPIO.OUT)
-# GPIO.setup(errMessageLEDPin,GPIO.OUT)
-# GPIO.setup(pasMessageLEDPin,GPIO.OUT)
-
-
-# GPIO.output(tempLEDPin,GPIO.LOW)
-# GPIO.output(humiLEDPin,GPIO.LOW)
-# GPIO.output(errMessageLEDPin,GPIO.LOW)
-# GPIO.output(pasMessageLEDPin,GPIO.LOW)
 
 GPIO.setup(in1, GPIO.OUT)
 GPIO.setup(in2, GPIO.OUT)

@@ -1,0 +1,54 @@
+Program Start
+
+A full buffer was not returned. Try again.
+
+
+07/27/2022 12:50:13
+Temp:77.9F 25.5C
+Humidity: 63.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/27/2022 12:50:15
+Temp:77.9F 25.5C
+Humidity: 63.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/27/2022 12:50:18
+Temp:77.9F 25.5C
+Humidity: 63.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/27/2022 12:50:20
+Temp:77.9F 25.5C
+Humidity: 63.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/27/2022 12:50:22
+Temp:77.9F 25.5C
+Humidity: 63.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/27/2022 12:50:25
+Temp:77.9F 25.5C
+Humidity: 63.7%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/27/2022 12:50:27
+Temp:77.9F 25.5C
+Humidity: 63.7%
+Temperature Stabilized
+Humidity Stabilized
+
+Program Terminated

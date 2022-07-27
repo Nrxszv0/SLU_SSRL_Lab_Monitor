@@ -1,0 +1,40 @@
+Program Start
+
+
+07/19/2022 10:56:08
+Temp:77.0F 25.0C
+Humidity: 68.4%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/19/2022 10:56:10
+Temp:77.7F 25.4C
+Humidity: 67.2%
+Temperature Stabilized
+Humidity Stabilized
+
+Checksum did not validate. Try again.
+
+
+07/19/2022 10:56:15
+Temp:77.7F 25.4C
+Humidity: 67.1%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/19/2022 10:56:17
+Temp:77.7F 25.4C
+Humidity: 67.0%
+Temperature Stabilized
+Humidity Stabilized
+
+
+07/19/2022 10:56:19
+Temp:77.7F 25.4C
+Humidity: 67.0%
+Temperature Stabilized
+Humidity Stabilized
+
+Program Terminated
