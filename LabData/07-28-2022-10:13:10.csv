@@ -1,0 +1,12 @@
+Date and Time,Temperature (C),Humidity,Temperature Warning,Humidity Warning,Temperature Message State,Humidity Message State
+07/28/2022 10:13:21,10.0,56.0,Temperature Stabilized,Humidity Stabilized,N/A,N/A
+07/28/2022 10:13:31,30.0,30.0,Warning High Temperature,Humidity Stabilized,High Temp Message Sent,N/A
+07/28/2022 10:13:38,0.0,0.0,Warning Low Temperature,Warning High Humidity,Low Temp Message Sent,Low Humidity Message Sent
+07/28/2022 10:13:51,0.0,0.0,Warning Low Temperature,Warning High Humidity,N/A,N/A
+07/28/2022 10:14:15,10.0,30.0,Temperature Stabilized,Humidity Stabilized,Message Error,Message Error
+07/28/2022 10:14:26,10.0,30.0,Temperature Stabilized,Humidity Stabilized,Message Error,Humidity Stabilized Message Sent
+07/28/2022 10:16:10,90.0,90.0,Warning High Temperature,Warning High Humidity,High Temp Message Sent,High Humidity Message Sent
+07/28/2022 10:16:17,90.0,90.0,Warning High Temperature,Warning High Humidity,N/A,N/A
+07/28/2022 10:16:23,0.0,0.0,Warning Low Temperature,Warning High Humidity,Low Temp Message Sent,Low Humidity Message Sent
+07/28/2022 10:16:31,50.0,50.0,Warning High Temperature,Humidity Stabilized,High Temp Message Sent,Humidity Stabilized Message Sent
+07/28/2022 10:16:37,20.0,20.0,Temperature Stabilized,Humidity Stabilized,Temp Stabilized Message Sent,N/A

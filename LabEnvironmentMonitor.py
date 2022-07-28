@@ -71,7 +71,7 @@ now = datetime.now()
 strDate = now.strftime("%m-%d-%Y-%H:%M:%S")
 
 fileName = "LabData/"  + strDate + ".csv"
-with open("test23.csv", 'a') as f:
+with open(fileName, 'a') as f:
     w = csv.writer(f)
     w.writerow(fields)    
 
@@ -82,22 +82,23 @@ with open("test23.csv", 'a') as f:
             loopMsgs = False
         except:
             print("Message Error")
-            # w.writerow(["N/A","N/A","Message Error"])
+            time.sleep(1)
+            w.writerow(["","","","","","Message Error", "Message Error"])
     print("Program Start")
 
 
     while True:
         try:    
         #for testing conditions
-            # temperature_c = float(input("Enter Celcius: "))
-            # temperature_f = temperature_c * (9 / 5) + 32
-            # humidity = float(input("Enter Humidity: "))
-
-            temperature_c = dhtDevice.temperature
+            temperature_c = float(input("Enter Celcius: "))
             temperature_f = temperature_c * (9 / 5) + 32
-            humidity = dhtDevice.humidity
+            humidity = float(input("Enter Humidity: "))
 
-            data = ["Date and Time", "Temperature (C)", "Humidity", "Temperature Warning",  "Humidity Warning", "Temperature Message State", "Humidity Message State"]
+            # temperature_c = dhtDevice.temperature
+            # temperature_f = temperature_c * (9 / 5) + 32
+            # humidity = dhtDevice.humidity
+
+            data = ["Date and Time", "Temperature (C)", "Humidity", "Temperature Warning",  "Humidity Warning", "N/A", "N/A"]
 
 
             now = datetime.now()
@@ -264,7 +265,7 @@ with open("test23.csv", 'a') as f:
             # Errors happen fairly often, DHT's are hard to read, just keep going
             
             print("\n" + error.args[0])
-            f.write("\n\n" + error.args[0])
+            # f.write("\n\n" + error.args[0])
             time.sleep(2.0)
             continue
         except KeyboardInterrupt:
@@ -282,7 +283,7 @@ with open("test23.csv", 'a') as f:
             # f.write("\n\nProgram Terminated")
             mylcd.lcd_clear()
             GPIO.cleanup()
-            f.close()
+            # f.close()
             quit()
         # except Exception as error:
         #     mylcd.lcd_clear()
