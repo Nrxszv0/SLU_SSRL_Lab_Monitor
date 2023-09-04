@@ -1,6 +1,10 @@
 # Lab_Monitor
 This repository is for an environmental lab monitor made for Saint Louis University's Space Systems Research Lab's clean room. This device sends text and email notifications which describe the state of the clean room. Depending on different criteria, the device could control different devices to change the state of the lab. 
 
+![SLU_LAB_LID_OFF](https://github.com/Nrxszv0/SLU_SSRL_Lab_Monitor/assets/58677365/bf05d93a-2c4b-4a72-b8ee-3103f6b2c04e)
+![SLU_LAB_LID_On](https://github.com/Nrxszv0/SLU_SSRL_Lab_Monitor/assets/58677365/61cecd4b-a9c2-4398-826a-ee1eb086b0fa)
+
+
 ## Instructions
 Lookup the data sheet for the DHT22 and determine which of the three pins are Signal, Ground, and VCC
 
