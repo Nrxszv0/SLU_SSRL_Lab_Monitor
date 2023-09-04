@@ -3,7 +3,9 @@ This repository is for an environmental lab monitor made for Saint Louis Univers
 
 ![SLU_LAB_LID_OFF](https://github.com/Nrxszv0/SLU_SSRL_Lab_Monitor/assets/58677365/bf05d93a-2c4b-4a72-b8ee-3103f6b2c04e)
 ![SLU_LAB_LID_On](https://github.com/Nrxszv0/SLU_SSRL_Lab_Monitor/assets/58677365/61cecd4b-a9c2-4398-826a-ee1eb086b0fa)
-<img width="460" alt="SetupLabMonitor" src="https://github.com/Nrxszv0/SLU_SSRL_Lab_Monitor/assets/58677365/61cecd4b-a9c2-4398-826a-ee1eb086b0fa">
+<img width="200" alt="SetupLabMonitor" src="https://github.com/Nrxszv0/SLU_SSRL_Lab_Monitor/assets/58677365/bf05d93a-2c4b-4a72-b8ee-3103f6b2c04e">
+
+<img width="200" alt="SetupLabMonitor" src="https://github.com/Nrxszv0/SLU_SSRL_Lab_Monitor/assets/58677365/61cecd4b-a9c2-4398-826a-ee1eb086b0fa">
 
 
 ## Instructions
