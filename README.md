@@ -1,7 +1,7 @@
 # Lab_Monitor
 This repository is for an environmental lab monitor made for Saint Louis University's Space Systems Research Lab's clean room. This device sends text and email notifications which describe the state of the clean room. Depending on different criteria, the device could control different devices to change the state of the lab. 
 
-# Instructions
+## Instructions
 Lookup the data sheet for the DHT22 and determine which of the three pins are Signal, Ground, and VCC
 
 You can control the pi via ssh.
